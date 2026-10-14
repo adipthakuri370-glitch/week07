@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adip Uchai Thakuri - Personal Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Adip Uchai Thakuri's Portfolio</h1>
+    <p>Personal Profile Page with Flexbox Layout</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="nav-menu" aria-label="Main navigation">
+    <a href="#about">About Me</a>
+    <a href="#profile">Profile</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- Content Wrapper Layout -->
+    <div class="content-wrapper">
+      
+      <section class="card" id="about">
+        <h2>Introduction</h2>
+        <p>Hello! I am Adip Uchai Thakuri, building my personal portfolio with HTML and CSS.</p>
+        <p>Press F12 to inspect the cards and their spacing in the Computed panel.</p>
+      </section>
+
+      <section class="card" id="profile">
+        <h2>My Profile</h2>
+        <img src="profile.jpg" alt="Adip Uchai Thakuri profile photo" class="profile-img">
+        <p><strong>Name:</strong> Adip Uchai Thakuri</p>
+        <p><strong>Email:</strong> <a href="mailto:adipthakuri370@gmail.com">adipthakuri370@gmail.com</a></p>
+        <p>Aspiring developer and tech enthusiast passionate about modern web engineering and software development.</p>
+      </section>
+
+    </div>
+
+    <section id="contact">
+      <h2>Leave a Message</h2>
+      <form>
+        <label for="visitor-name">Name</label>
+        <input id="visitor-name" type="text" placeholder="Your name">
+        <label for="visitor-email">Email</label>
+        <input id="visitor-email" type="email" placeholder="Your email">
+        <label for="visitor-message">Message</label>
+        <textarea id="visitor-message" rows="5" placeholder="Your message"></textarea>
+        <button type="button">Send Message (Layout Demo)</button>
+      </form>
+      <p>This form demonstrates HTML layout; it does not send messages.</p>
+    </section>
+  </main>
+  
+  <footer><p>&copy; 2026 Adip Uchai Thakuri | My cumulative web portfolio</p></footer>
+
+  <p><a href="flexbox-simulator.html">Open the supplementary Flexbox simulator</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
